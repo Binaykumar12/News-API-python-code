@@ -39,7 +39,7 @@ def main():
     time_of_day = get_time_of_day()
     
     # Greet the user based on the time of day
-    greeting = f"Good {time_of_day} Binay ! Here are today's top news headlines:"
+    greeting = f"Good {time_of_day} ! Here are today's top news headlines:"
     speak(greeting)
     
     # Fetch and speak out daily news
